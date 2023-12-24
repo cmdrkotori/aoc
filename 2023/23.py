@@ -1,7 +1,7 @@
 #!/usr/bin/pypy3
 from collections import defaultdict
 import copy
-lines = open('23_s.txt').read().strip().split('\n')
+lines = open('23.txt').read().strip().split('\n')
 dirs = [(0,1),(0,-1),(1,0),(-1,0)]
 
 grid = defaultdict(lambda: '#')
